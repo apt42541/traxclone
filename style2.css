@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800|Open+Sans:300,400,600,700');
+.bg-light {
+    background: #fff !important;
+}
+
+nav {
+    background: #fff;
+    display: block;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a,
+ul {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    border-bottom: 3px solid #4dcae6;
+    text-decoration: none !important;
+}
+
+.toggle a:hover {
+    border: none;
+}
+
+.right-navbar a {
+    border: none;
+    background: transparent;
+    width: 36px;
+    height: 36px;
+    display: block;
+    border-radius: 50%;
+    color: #000;
+    text-align: center;
+    line-height: 35px;
+}
+
+.right-navbar a:hover {
+    border: none;
+    background: #4dcae6;
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    display: block;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+}
+
+.container {
+    padding: 0 3em;
+}
+
+.navbar {
+    padding: 1.5em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-brand img {
+    /*! display: flex; */
+    width: 75%;
+}
+
+.shadowt {
+    /*! box-shadow: 0px 0px 7px 1px; */
+}
+
+.navbar li {
+    padding: 0 15px;
+}
+
+.center-navbar ul,
+.right-navbar ul {
+    display: flex;
+}
+
+#navbar-overlay {
+    display: none;
+}
+
+.main-banner {
+    background-image: url("http://themesindustry.com/html/trax-2020/images/bg-blog-detail-header.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h2 {
+    font-size: 5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.main-banner {
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    opacity: .7;
+}
+
+.page-title {
+    z-index: 4;
+    padding: 3.5em 0;
+    color: #fff;
+    position: relative;
+}
+
+.page-title .font-xlight {
+    font-weight: 300;
+}
+
+.page-title .font-xbold {
+    font-weight: 800;
+}
+
+.page-title .font-ligt {
+    font-weight: 400;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.page-overlay-box {
+    background: #6baad9;
+    z-index: 1;
+    position: relative;
+    transform: translateY(50%);
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+    color: #fff;
+    font-size: 12px;
+}
+
+.float-right a {
+    color: #fff;
+}
+
+.page-overlay-box .blog-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-detail {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+
+.blog-detail ul {
+    display: flex;
+}
+
+.blog-detail h3 {
+    font-size: 14px;
+    color: #fff;
+}
+
+.blog-detail ul {
+    list-style: none;
+}
+
+.blog-detail li {
+    text-decoration: none;
+    color: #fff;
+}
+
+.blog-detail a {
+    color: #fff;
+}
+
+.our-blog {
+    background: #eee;
+}
+
+.box-white {
+    background: #fff;
+}
+
+.box-white img {
+    width: 100%;
+    transition: 1s all ease;
+}
+
+.images {
+    overflow: hidden;
+}
+
+.box-white:hover img {
+    transform: scale(1.1);
+}
+
+.box-detail {
+    padding: .5em 1em;
+}
+
+.box-detail h2 {
+    font-size: 20px;
+}
+
+.box-detail p {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.box-heading {
+    padding: .5em 1em;
+}
+
+.site-footer {
+    background-color: #26313c;
+    color: #fff;
+}
+
+.site-footer a:hover {
+    border: none;
+}
+
+.info-first-sect p {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.info-secound-sect h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.info-secound-sect ul {
+    padding: 0 15px;
+}
+
+.info-secound-sect li {
+    font-size: 13px;
+    color: #24cdd5;
+}
+
+.info-secound-sect li {
+    border-bottom: 1px solid #fff;
+    padding: 15px 0;
+}
+
+.info-secound-sect li a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+}
+
+.info-third-sect h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.info-third-sect ul {
+    list-style: circle;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.info-third-sect li a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+}
+
+.info-four-sect h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info-four-sect li {
+    font-size: 10px;
+    color: #24cdd5;
+}
+
+@media only screen and (max-width:768px) {
+    .center-navbar {
+        display: none !important;
+    }
+    .img-brand img {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:768px) {}
